@@ -227,7 +227,7 @@ with open("C:\\TTJ\\TTJ\\Project_PyCharm\\best_model_xgb.pkl","wb") as file:
 y_predict = best_xgb.predict(X_test)
 #print(y_predict)
 
-#
+#g
 lift_gain_report = pd.DataFrame()
 lift_gain_report["y_test"] = y_test
 lift_gain_report["Predicted Probabilities"] = y_predict_proba_class_1
